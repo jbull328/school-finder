@@ -11,13 +11,13 @@ function SchoolStore() {
   }
 
   function onChange(listener) {
-    school.push(school)
+    schools.push(school)
     triggerListeners();
   }
 
   function addSchool(school) {
     var _index;
-    school.map(function (s, index) {
+    schools.map(function (s, index) {
       if (s.name === school.name) {
           _index = index;
       }

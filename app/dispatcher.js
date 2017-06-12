@@ -1,4 +1,4 @@
-var Guild = require("guild");
+var Guid = require("guid");
 
 var listeners = {};
 
