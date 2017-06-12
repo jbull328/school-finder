@@ -3,7 +3,7 @@ var ReactDom = require("react-dom");
 var SchoolsList = require("./components/SchoolList.jsx");
 
 var _schools = [
-  {name: "Lovedate", tagline: "This is a wonderful school"},
+  {name: "Lovedale", tagline: "This is a wonderful school"},
   {name: "Bishop", tagline: "Another great school"}
 ];
 
