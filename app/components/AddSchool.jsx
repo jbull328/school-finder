@@ -10,6 +10,10 @@ module.exports = React.createClass({
   },
   addSchool:function(e) {
     e.preventDefault();
+    actions.addSchool(this.state);
+  },
+  handleInputChange:function(e){
+    e.preventDefault();
     var name = e.target.name;
     var state = this.state;
     state[name] = e.target.value;
